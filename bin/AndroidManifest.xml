@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nkocetlibrarybookloc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+   <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+         <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name="com.example.nkocetlibrarybookloc.BookActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.LoginActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.librian_staff_activity"></activity>
+         <activity android:name=".RegisterActivity" android:label="Register New Account"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.LibrarianActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.MemberActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.BookSearchActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.BookUpdateActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.BookDisplayActivity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.search_activity"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.BookIsuue"></activity>
+         <activity android:name="com.example.nkocetlibrarybookloc.BookReturn"></activity>
+    </application>
+
+</manifest>

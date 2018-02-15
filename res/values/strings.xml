@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">NKOCET Lib Book Loc</string>
+ <string-array name="member_array">
+        <item>Member Type</item>
+        <item>Principal</item>
+        <item>Library Staff</item>
+        <item>Office Staff</item>
+        <item>Teaching Staff Member</item>
+        <item>Visiting Staff</item>
+        <item>Trustee Member</item>
+        <item>Project Director</item>
+        <item>Student</item>
+        <item>Non Teaching Staff</item>
+        <item>C H B</item>
+    </string-array>
+    
+ <string-array name="bookcat_array">
+        <item>Book Category</item>
+        <item>Books</item>
+        <item>Book Bank</item>
+        <item>Personality Development</item>
+        <item>Reference Books</item>
+        <item>Serials</item>
+        <item>Social Welfare Book</item>
+    </string-array>
+    
+ <string-array name="dept_array">
+        <item>Department</item>
+        <item>Computer Science Engineering</item>
+        <item>Electronic and Telecommunication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+    </string-array>
+    
+ <string-array name="class_array">
+        <item>Class</item>
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+</resources>

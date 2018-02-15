@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true"
+  >
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#fff">
+ 
+        <!--  Header  Starts-->
+        <!--  Header Ends -->
+        <!-- Footer Start -->
+        
+        <!-- Footer Ends -->
+ 
+        <!-- Member Details -->
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"            
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+          <!-- Librarian Id -->
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_span="2"
+     android:fontFamily="Arial Black"
+     android:text="Book Search"
+     android:textColor="#5A029F"
+     android:textSize="25sp"
+     android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Accn_no"
+              android:textColor="#372c24" />
+
+          <EditText
+              android:id="@+id/accno_ser"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dip"
+              android:layout_marginTop="5dip"
+              android:singleLine="true" />
+
+          <!--  Member Type -->
+
+          <Button
+              android:id="@+id/btn_bksearch1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Search" 
+              android:drawableTop="@drawable/book1"              
+              android:background="@color/white"/>
+          <!-- Department -->
+          <!-- Class -->
+          <!-- Add Button -->
+          <!-- Clear Button -->
+
+      
+ 
+        </LinearLayout>
+        <!-- Member Form Ends -->
+  </RelativeLayout>
+</ScrollView>
